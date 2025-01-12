@@ -1,5 +1,14 @@
 // SPDX-License-Identifier: Unlicensed
 
+
+/**
+	Token Name: Trawel.AI, is a cutting-edge travel platform that leverages artificial intelligence to revolutionize travel planning and execution. This platform has a Utility Token, 
+	granting holders access to advanced features and premium services, enhancing their travel experience and providing unique benefits within the Trawel.AI ecosystem.
+	https://www.Trawel.AI/
+	https://t.me/Trawel_AI
+	https://x.com/Trawel_AI
+*/
+
 pragma solidity ^0.8.9;
 
 // Importing necessary contracts and interfaces
@@ -87,7 +96,7 @@ contract TrawelAI is ERC20, Ownable
     
     event OwnerForcedSwapBack(uint256 timestamp);
 
-    constructor(address payable _marketingWallet,address payable _buyBackWallet,address payable _devProjectWallet) ERC20("Trawel.AI", "TrawelAI") {
+    constructor(address payable _marketingWallet,address payable _buyBackWallet,address payable _devProjectWallet) ERC20("Trawel.AI", "Trawel") {
 
         address _owner = msg.sender;
 
